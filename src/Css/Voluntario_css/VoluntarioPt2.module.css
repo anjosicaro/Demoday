@@ -1,0 +1,59 @@
+.page2{
+    height: 540px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: rgb(187, 255, 244); */
+}
+
+.voluntario1{
+    width: 35%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.voluntario1 img{
+    width: 80%;
+}
+
+.borda {
+    width: 25%;
+    height: 370px;
+    display: flex;
+    border: 3px solid black;
+    border-radius: 20px;
+    z-index: 2;
+    margin-top: 50px;
+}
+
+.txt2 {
+    background-color: #FD4A0A;
+    margin-right: 120px;
+    width: 25%;
+    margin-left: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    text-align: justify;
+    position: absolute;
+    z-index: 2;
+}
+
+.txt2 h1{
+    width: 40%;
+    color: white;
+    font-size: 25px;
+}
+
+.txt2 p{
+    width: 70%;
+    color: white;
+}

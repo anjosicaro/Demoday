@@ -1,0 +1,30 @@
+.Home {
+    width: 100%;
+    margin: auto;
+    height: 750px;
+    /* background-color: red; */
+    background-image: url(../../Images/BGHome.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txt {
+    width: 40%;
+    /* background-color: red; */
+    margin-left: 100px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.txt h1 {
+    font-size: 40px;
+}

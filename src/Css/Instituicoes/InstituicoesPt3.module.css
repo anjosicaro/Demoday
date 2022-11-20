@@ -1,0 +1,26 @@
+.InstituicoesPt3{
+    width: 100%;
+    height:776px;
+    /* background-color:red; */
+    background-image:url(../../Images/BGInstituicoesPt3.png);
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
+.InstituicoesPt3 h1{
+    font-size:50px;
+    font-weight:bold;
+    /* background-color: yellow; */
+    width: 500px;
+    padding-top:120px;
+    margin-left:693px;
+    margin-bottom:46px;
+}
+
+.InstituicoesPt3 p{
+    font-size:30px;
+    font-weight:bold;
+    width:500px;
+    /* background-color: yellow; */
+    margin-left:693px;
+}

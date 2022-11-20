@@ -1,0 +1,115 @@
+.Home {
+    width: 100%;
+    height: 1112px;
+    background-image: url(../../Images/BGHomePt4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Home4Pt1 {
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
+    margin-bottom:502px;
+}
+
+.container_sejaVoluntario {
+    display: flex;
+    flex-direction: column;
+    /* background-color:blue; */
+    width: auto;
+    height: auto;
+    /* text-align: center; */
+    margin-left: 150px;
+}
+
+.IMG_sejaVoluntario {
+    width: 384px;
+    height: 387px;
+}
+
+.container_sejaVoluntario a {
+    text-decoration: none;
+    color: #352E67;
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-left: 170px;
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn_cadastro {
+    background-color: #EB5E36;
+    width: auto;
+    height: 25px;
+    padding: 15px 35px;
+    border-radius: 5px;
+    margin-top: 340px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'poppins';
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.container_sejaDoador {
+    display: flex;
+    flex-direction: column;
+    /* background-color:blue; */
+    width: auto;
+    height: auto;
+    /* margin-right:587.094px; */
+
+}
+
+.IMG_sejaDoador {
+    width: 427px;
+    height: 357px;
+}
+
+.container_sejaDoador a {
+    text-decoration: none;
+    color: #352E67;
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.container_sejaDoador a:hover,
+.container_sejaVoluntario a:hover {
+    text-decoration: underline;
+}
+
+.Home4Pt2 {
+    /* background-color:green; */
+    width: 100%;
+    height: 300px;
+}
+
+.container_textos {
+    display: flex;
+    flex-direction: row;
+}
+
+.textoEsquerdo p, .textoDireito p{
+    font-size:40px;
+    font-family: 'poppins';
+    font-weight:bold;
+    /* background-color:green; */
+    width:420px;
+}
+
+.textoEsquerdo{
+    margin-left:60px;
+    margin-right:400px;
+
+}
