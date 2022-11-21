@@ -6,8 +6,15 @@ function Instituicoes() {
         <>
             <section className={styles.Header_invisivel}></section>
             <section className={styles.InstituicoesPt1}>
-                <h1>Você pode encher esse prato</h1>
+            <div className={styles.container}>
+         <div className={styles.txt}>
+         <h1>Você pode encher esse prato</h1>
                 <p>Conheça as Ongs e Igrejas que lutam contra a fome que mata milhares de brasileiros</p>
+         </div>
+                <div className={styles.img}>
+carrossel
+                </div>
+            </div>
             </section>
             <InstituicoesPt3 />
         </>
