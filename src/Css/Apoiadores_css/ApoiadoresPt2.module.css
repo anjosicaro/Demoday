@@ -1,54 +1,46 @@
-.ApoiadoresPt2{
-    background-color:#EBDFAB;
-    width: 100%;
-    height:700px;
-    display:flex;
-    flex-direction:column;
-    /* margin: auto; */
-}
-
-.ApoiadoresPt2 h1{
-    font-size:50px;
-    font-weight:bold;
-    text-align:center;
-    padding-top:80px;
-}
-
-.containerMercados{
-    /* background-color:blue; */
-    margin: auto;
-    width: 55%;
-    height: 500px;;
+.Apoiadores{
+    /* background-color: aquamarine; */
+    height: 500px;
     display: flex;
-    flex-direction:column;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
 }
-
-.Mercados{
-width: 100%;
-height: 200px;
-display: flex;
-justify-content: space-evenly;
-  align-items: center;
-/* background-color: red; */
-}
-
-
-.divVermelha{
-    width: 20%;
-    height: 130px;
-    background-color:#EB5E36;
-    border:2px solid #EB5E36;
+.container{
+    width: 90%;
+    flex-direction: column;
+    margin: auto;
+    height: 400px;
+    /* background-color:red; */
+    display: flex;
+    align-items: center;
     border-radius: 5px;
-    box-shadow:0px 0px 5px black;
+    box-shadow: 5px 5px 10px rgb(56, 56, 56);
+    background-color:#FDA81B;
+}
+.containerCards{
+    width: 90%;
+    margin: auto;
+    height: 400px;
+    /* background-color:blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    width: 30%;
+    height: 350px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 5px;
 }
 
-.divAmarela{
-    width: 20%;
-    height: 130px;
-    background-color:#FF9900;
-    border:2px solid #FF9900;
-    border-radius: 5px;
-    box-shadow:0px 0px 5px black;
-} 
+.icone{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+}
