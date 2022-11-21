@@ -1,9 +1,7 @@
 .Apoiadores{
     /* background-color: aquamarine; */
     height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
 }
 .container{
     width: 90%;

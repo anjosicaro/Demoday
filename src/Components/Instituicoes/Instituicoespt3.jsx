@@ -3,12 +3,32 @@ import styles from '../../Css/Instituicoes/InstituicoesPt3.module.css'
 function InstituicoesPt3() {
     return (
         <section className={styles.InstituicoesPt3}>
-            <h1>
-                Você pode encher esse prato
-            </h1>
-            <p>
-                Conheça as Ongs e Igrejas que lutam contra a fome que mata milhares de brasileiros
-            </p>
+            <h1>Veja o que as pessoas comentaram sobre os projetos</h1>
+         <div className={styles.container}>
+            <div className={styles.comentario}>
+               <div className={styles.imgTxt}>
+               <div className={styles.img}></div>
+                <h4>Nome da pessoa</h4>
+               </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit natus velit placeat et? Assumenda, inventore. Numquam minus nemo voluptatum</p>
+            </div>
+            <div className={styles.comentario}>
+               <div className={styles.imgTxt}>
+               <div className={styles.img}></div>
+                <h4>Nome da pessoa</h4>
+               </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit natus velit placeat et? Assumenda, inventore. Numquam minus nemo voluptatum</p>
+            </div>
+            <div className={styles.comentario}>
+               <div className={styles.imgTxt}>
+               <div className={styles.img}></div>
+                <h4>Nome da pessoa</h4>
+               </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit natus velit placeat et? Assumenda, inventore. Numquam minus nemo voluptatum</p>
+            </div>
+        
+
+         </div>
         </section>
     );
 };
