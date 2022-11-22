@@ -1,4 +1,5 @@
 import styles from '../../Css/Instituicoes/Instituicoes.module.css'
+import InstituicoesPt2 from './Instituicoespt2'
 import InstituicoesPt3 from './Instituicoespt3'
 
 function Instituicoes() {
@@ -16,8 +17,10 @@ carrossel
                 </div>
             </div>
             </section>
+
+            <InstituicoesPt2 />
             <InstituicoesPt3 />
         </>
     )
 }
-export default Instituicoes
+export default Instituicoes;
