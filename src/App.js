@@ -9,6 +9,7 @@ import Apoiadores from './Components/Apoiadores/Apoiadores';
 import Projeto from   './Components/Projeto/Projeto';
 import Cadastro from './Components/Cadastro/Cadastro';
 import PerfilOng from './Components/PerfilOng/PerfilOng';
+import  'bootstrap/dist/css/bootstrap.min.css' ;
 
 function App() {
       return (

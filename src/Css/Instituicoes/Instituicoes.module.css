@@ -31,10 +31,12 @@
     background-color:#FDA81B;
 }
 
-.img{
-    width: 30%;
+.CarrosselContainer{
+    width: 25%;
     height: 90%;
-    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .txt{
