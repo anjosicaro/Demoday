@@ -21,56 +21,56 @@ function ProjetoPt3() {
       <div className={styles.img}>
         <div className={styles.aluno}>
           <img src={icaro} alt="" />
-          <h1>
+          <h2>
           Ícaro <br />
           Anjos
-        </h1>
+        </h2>
         </div>
         
         
         <div className={styles.aluno}>
           <img src={matheus} alt="" />
-          <h1>
+          <h2>
          Matheus <br />
           Barros
-        </h1>
+        </h2>
         </div>{" "}
         <div className={styles.aluno}>
           <img src={vitor} alt="" />
-          <h1>
+          <h2>
           Vitor <br />
           Silva
-        </h1>
+        </h2>
         </div>{" "}
         <div className={styles.aluno}>
           <img src={pedro} alt="" />
-          <h1>
+          <h2>
          Pedro  <br />
          Lazaro
-        </h1>
+        </h2>
         </div>
       </div>
       <div className={styles.img}>
         <div className={styles.aluno}>
           <img src={lucas} alt="" />
-          <h1>
+          <h2>
           Lucas <br />
           Damasceno
-        </h1>
+        </h2>
         </div>
         <div className={styles.aluno}>
             <img src={giulia} alt="" />
-            <h1>
+            <h2>
          Giulia <br />
           Santos
-        </h1>
+        </h2>
         </div>
         <div className={styles.aluno}>
           <img src={casimiro} alt="" />
-          <h1>
+          <h2>
         Casimiro <br />
           Tompson
-        </h1>
+        </h2>
         </div>
       </div>
 

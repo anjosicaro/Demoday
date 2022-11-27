@@ -22,7 +22,7 @@
 .ong{
     width: 300px;
     height: 400px;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;

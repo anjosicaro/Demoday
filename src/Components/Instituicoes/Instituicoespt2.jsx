@@ -1,5 +1,6 @@
 import styles from '../../Css/Instituicoes/InstituicoesPt2.module.css'
 import Carousel from 'react-bootstrap/Carousel';
+import ong1 from '../../Images/ong.png'
 
 function InstituicoesPt2() {
     return (
@@ -12,7 +13,7 @@ function InstituicoesPt2() {
         <Carousel slide={false}>
       <Carousel.Item>
       <div className={styles.ong}>
-        amarelo
+        <img src={ong1} alt="" />
       </div>
         <Carousel.Caption>
           
