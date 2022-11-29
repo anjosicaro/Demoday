@@ -5,23 +5,29 @@
     border: 0;
     outline: none;
     list-style: none;
-    text-decoration: none;
     
+    color: #352E67;
+}
+ul, li a{
+    
+    text-decoration: none;
+    color: #352E67;
 }
 body{
-    /* background-color:#F2F2F2; */
+    /* background-color:blue; */
     font-family: 'Poppins';
-    color: #352E67;
     /* overflow-x: hidden; */
-
+    
 }
 
 h1{
     font-family: 'Poppins';
     font-weight: 500px;
+   
 }
 
 p{
+   
     font-family: 'Poppins';
     font-weight: 400px;
 }
