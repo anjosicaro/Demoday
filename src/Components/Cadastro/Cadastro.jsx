@@ -19,7 +19,7 @@ function Cadastro() {
       <div className={styles.cadastro}>
         <h1>Cadastro</h1>
         <div className={styles.linha}></div>
-        <form>
+        <form action="GET">
           <input type="text" id="NomeCompleto" name="NomeCompleto" placeholder="Nome completo" /> <br />
           <input type="number" id="cpf" name="cpf" placeholder="CPF ou CNPJ" /> <br />
           <input type="number" id="RG" name="RG" placeholder="RG" /> <br />
