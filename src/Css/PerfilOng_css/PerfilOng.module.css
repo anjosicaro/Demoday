@@ -1,6 +1,11 @@
+/* .Header_invisivel{
+    width: 100%;
+    height:80px;
+} */
+
 .page1{
     /* background-color: rgb(223, 255, 251); */
-    height: 630px;
+    height: 180em;
     background-image: url(../../Images/perfilong1.png);
     background-repeat: no-repeat;
     background-size: 100% 35%;
@@ -9,58 +14,7 @@
     /* align-items: center; */
 } 
 
-.txt1{
-    width: 45%;
-    height: 400px;
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.txt1 h1{
-    font-size: 30px;
-    padding-bottom: 10px;
-}
-
-.txt1 p{
-    font-weight: 500;
-}
-
-.email{
-    padding-bottom: 30px;
-}
-
-.txt1 img{
-    height: 165px;
-    width: 180px;
-}
-
-.txt2{
-    background-color: #EBDFAB;
-    margin-top: 340px;
-    height: 150px;
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    z-index: 2;
-    position: absolute;
-}
-
-.txt2 p{
-    width: 35%;
-}
-
-.borda {
-    width: 81%;
-    height: 570px;
-    margin-left: 100px;
-    display: flex;
-    border: 3px solid black;
-    z-index: 1;
-    margin-top: 70px;
+.perfil{
+    height: 20em;
+    width: 20em;
 }
