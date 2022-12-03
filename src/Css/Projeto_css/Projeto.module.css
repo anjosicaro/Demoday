@@ -17,10 +17,29 @@
     margin-left: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
+    font-family:'poppins';
 }
 
 .txt h1{
     font-size: 40px;
+    font-weight: bold;
+    font-size:70px;
+    text-align:center;
+    /* background: red; */
+    width:330px;
+}
+
+.txt p{
+    /* background:red; */
+    width:350px;
+}
+
+.cor_roxa{
+    color:#352E67;
+}
+
+.cor_vermelha{
+    color:#EB5E36;
 }

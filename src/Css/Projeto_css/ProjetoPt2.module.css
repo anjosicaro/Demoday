@@ -1,5 +1,62 @@
-.ProjetoPt2{
+.ProjetoPt2 {
     width: 100%;
-    height: 600px;
-    background-color: red;
+    height: 732px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+}
+
+.projetoPt2 h1{
+    font-size:30px;
+}
+
+.projeto2 p{
+    font-size:18px;
+}
+
+.projetoPt2Esquerda {
+    background: red;
+    height: 100%;
+    width: 50rem;
+}
+
+.blocoEsquerdo{
+    background:blue;
+    width:25rem;
+    height:70%;
+}
+
+.blocoEsquerdo{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    /* padding:0px 38px; */
+}
+
+
+
+/* ==================================================================== */
+.projetoPt2Direita {
+    /* background: blue; */
+    background: url(../../Images/CaixaComida.png) no-repeat top 53px right 63px, url(../../Images/HomemDoando.png) no-repeat top 272px right 363px, url(../../Images/criançaComendo.png) no-repeat top 494px right 63px;
+    height: 100%;
+    width: 50rem;
+    padding-top: 150px;
+    font-family: 'poppins';
+    font-weight: bold;
+}
+
+.txtEsquerda {
+    /* background: red; */
+    text-align: center;
+    width: 250px;
+    margin: 0px 0px 220px 90px;
+}
+
+.txtDireito {
+    /* background: blue; */
+    text-align: center;
+    width: 230px;
+    margin: 0px 0px 110px 320px;
+
 }
