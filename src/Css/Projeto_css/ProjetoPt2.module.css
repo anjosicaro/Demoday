@@ -38,7 +38,7 @@
 /* ==================================================================== */
 .projetoPt2Direita {
     /* background: blue; */
-    background: url(../../Images/CaixaComida.png) no-repeat top 53px right 4.6rem, url(../../Images/HomemDoando.png) no-repeat top 272px right 23rem, url(../../Images/criançaComendo.png) no-repeat top 494px right 4.6rem;
+    background: url(../../Images/CaixaComida.png) no-repeat top 53px right 4.6rem, url(../../Images/HomemDoando.png) no-repeat top 272px right 23rem, url(../../Images/criançaComendo.png) no-repeat top 494px right 4.6rem ;
     height: 100%;
     width: 50rem;
     padding-top: 150px;
