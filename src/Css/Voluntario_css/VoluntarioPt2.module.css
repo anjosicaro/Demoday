@@ -1,59 +1,62 @@
-.page2{
-    height: 540px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    /* background-color: rgb(187, 255, 244); */
+/* PADRÕES DE ESCRITA */
+.tituloh1{
+    color:#000;
+    font-size:70px;
+    text-decoration:none;
+    margin-top: 10.1rem;
+    margin-bottom: 9.1rem;
 }
 
-.voluntario1{
-    width: 35%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    /* background-color: red; */
+.tituloh2{
+    color:#000;
+    font-size:45px;
+    font-weight: normal;
+    margin-bottom: 6.75rem;
 }
 
-.voluntario1 img{
+.tituloh3{
+    font-size:35px;
+    text-decoration:none;
+    color:#352E67;
+    margin-bottom: 1.1rem;
+}
+
+.tituloTamanho1{
+    font-size:25px;
+    color:#000;
+    margin-bottom: 3.3rem;
+}
+
+.linha{
+    color:#000;
+}
+/* =================================== */
+
+.VoluntarioPT2{
+    width:100vw;
+    height:99rem;
+    background:url(../../Images/BGVoluntarios2.png) no-repeat bottom;
+    background-size:100vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.folhetoVoluntario{
+    width:64.37rem;
+    height: 88.8rem;
+    background: url(../../Images/folhetoVoluntario.png) no-repeat;
+    background-size:100%;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+
+.textos{
+    text-align: left;
+    /* background: blue; */
+    align-items:center;
     width: 80%;
-}
-
-.borda {
-    width: 25%;
-    height: 370px;
-    display: flex;
-    border: 3px solid black;
-    border-radius: 20px;
-    z-index: 2;
-    margin-top: 50px;
-}
-
-.txt2 {
-    background-color: #FD4A0A;
-    margin-right: 120px;
-    width: 25%;
-    margin-left: 60%;
-    height: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 20px;
-    text-align: justify;
-    position: absolute;
-    z-index: 2;
-}
-
-.txt2 h1{
-    width: 40%;
-    color: white;
-    font-size: 25px;
-}
-
-.txt2 p{
-    width: 70%;
-    color: white;
+    margin-left: 8rem;
 }
