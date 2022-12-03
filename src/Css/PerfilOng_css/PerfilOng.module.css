@@ -4,17 +4,42 @@
 }
 
 .page1{
-    /* background-color: rgb(223, 255, 251); */
-    height: 180em;
+    background-color: rgb(223, 255, 251);
+    height: 54rem;
     background-image: url(../../Images/perfilong1.png);
     background-repeat: no-repeat;
-    background-size: 100% 35%;
+    background-size: 100%;
     display: flex;
     justify-content: space-evenly;
     /* align-items: center; */
 } 
 
-.perfil{
-    height: 20em;
-    width: 20em;
+.card{
+    width: 55rem;
+    height: 600px;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 120px;
+}
+
+.card h1{
+    font-weight: bolder;
+}
+
+.card h4{
+    font-weight: bold;
+}
+
+.card p{
+    width: 40rem;
+}
+
+.foto{
+    width: 13rem;
+    height: 13rem;
 }

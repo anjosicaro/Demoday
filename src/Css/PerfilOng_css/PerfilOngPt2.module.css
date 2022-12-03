@@ -1,0 +1,10 @@
+.page2{
+    background-color: #ffd15e;
+    background-image: url(../../Images/perfilong2.png);
+    height: 180rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
