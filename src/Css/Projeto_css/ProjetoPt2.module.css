@@ -1,62 +1,92 @@
-.ProjetoPt2 {
-    width: 100%;
-    height: 732px;
+/*---------------------PADRÕES DE TEXO---------------------*/
+.projetoPT2 {
+    width: 100vw;
+    height: 45.75rem;
     display: flex;
     flex-direction: row;
-    /* background-color: red; */
 }
 
-.projetoPt2 h1{
-    font-size:30px;
-}
-
-.projeto2 p{
-    font-size:18px;
-}
-
-.projetoPt2Esquerda {
-    background: red;
-    height: 100%;
-    width: 50rem;
-}
-
-.blocoEsquerdo{
-    background:blue;
-    width:25rem;
-    height:70%;
-}
-
-.blocoEsquerdo{
-    display:flex;
-    flex-direction:column;
-    text-align:center;
-    /* padding:0px 38px; */
-}
-
-
-
-/* ==================================================================== */
-.projetoPt2Direita {
-    /* background: blue; */
-    background: url(../../Images/CaixaComida.png) no-repeat top 53px right 4.6rem, url(../../Images/HomemDoando.png) no-repeat top 272px right 23rem, url(../../Images/criançaComendo.png) no-repeat top 494px right 4.6rem;
-    height: 100%;
-    width: 50rem;
-    padding-top: 150px;
+.tituloh1 {
+    color: #352E67;
+    font-size: 1.8rem;
     font-family: 'poppins';
     font-weight: bold;
+    margin-bottom: 4.1rem;
 }
 
-.txtEsquerda {
-    /* background: red; */
-    text-align: center;
-    width: 250px;
-    margin: 0px 0px 220px 90px;
+.textoTamanho1 {
+    color: #352E67;
+    font-family: 'poppins';
+    font-size: 1.12rem;
 }
 
-.txtDireito {
-    /* background: blue; */
-    text-align: center;
-    width: 230px;
-    margin: 0px 0px 110px 320px;
+.textoTamanho2 {
+    color: #352E67;
+    font-family: 'poppins';
+    font-size: 1.25rem;
+    font-weight:bold;
+}
 
+/*---------------------PARTE ESQUERDA---------------------*/
+.blocoTexto {
+    width: 24rem;
+    border-radius: 10px;
+    padding: 79px 38px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    text-align: center;
+}
+
+.projetoPT2Esquerda {
+    width: 50vw;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    margin: auto;
+    width: 170px;
+    height: 2px;
+    background-color: #FF9900;
+    margin-bottom: 4rem;
+}
+
+/*---------------------PARTE DIREITA---------------------*/
+.projetoPT2Direito {
+    /* background-color:blue; */
+    background: url(../../Images/CaixaComida.png) no-repeat top 3.3rem right 4.4rem, url(../../Images/HomemDoando.png) no-repeat top 17rem right 22.8rem, url(../../Images/criançaComendo.png) no-repeat bottom 2.6rem right 4rem;
+    width: 50vw;
+    height: 100%;
+    text-align: right;
+}
+
+.textoEsquerdo1{
+    /* float: right; */
+    /* margin-right: 23rem;
+    margin-top: 9rem; */
+
+    margin:9rem 23rem 13rem 0rem;
+    /* background:red; */
+    font-size:1.25rem;
+    font-weight: bold;
+    /* text-align:center; */
+    /* width:00px; */
+}
+
+.textoDireito2{
+    /* background:red; */
+    font-size:1.25rem;
+    font-weight: bold;
+    margin-right: 7rem;
+    margin-bottom: 7rem;
+    /* width:280px; */
+}
+
+.textoEsquerdo2{
+    /* background:red; */
+    font-size:1.25rem;
+    font-weight:bold;
+    margin-right: 21rem;
 }
