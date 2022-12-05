@@ -11,7 +11,7 @@ function HomePt3() {
     <div className={styles.txt}>
 <h1>Você pode</h1>
 <h2>ENCHER ESSE PRATO</h2>
-<button>
+<button className={styles.btn}>
   DOE
 </button>
     </div>
