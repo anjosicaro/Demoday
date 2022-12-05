@@ -36,8 +36,8 @@ function Home() {
       </section>
 
       <HomePt2 />
-      {/* <HomePt3 /> */}
-      {/* <HomePt4 /> */}
+      <HomePt3 />
+      <HomePt4 />
     </>
   );
 }
