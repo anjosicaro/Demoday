@@ -1,18 +1,64 @@
 import styles from "../../Css/Home_css/HomePt2.module.css";
-
+import grafico from "../../Images/grafico.png";
 function HomePt2() {
   return (
     <section className={styles.Home}>
-      <div className={styles.borda}></div>
+      <div className={styles.container}>
+        <div className={styles.cima}>
+          <div className={styles.containerImg}>
+            <img src={grafico} alt="" className={styles.img} />
+          </div>
+          <div className={styles.txt}>
+            <h1 className={styles.milhoes}>7 milhões</h1>
+            <h3>pessoas passando fome em São Paulo</h3>
+          </div>
+        </div>
 
-      <div className={styles.txt}>
-        <h1>Cerca de 27 milhões de toneladas de alimentos vão para o lixo todos os dias no Estado de São Paulo</h1>
-        <br />
-        <div className={styles.linha}></div>
-        <br />
-        <p>
-          Os mercados e restaurantes são responsaveis por x quantidades de alimentos em boas condiçoes que são descartados, boa parte desses alimentos são jogados no lixo por x motivos. Nós buscamos diminuir a desigualdade alimentar através da doação dos mercados que por algum motivo não irão comercializar um alimento em bom estado.
-        </p>
+        <div className={styles.baixo}>
+          <div className={styles.containerCard} >
+
+            {/* ong */}
+            <div className={styles.Card}>
+           <div className={styles.txt2}>
+           <div className={styles.title}>
+           <h3>ONG</h3>
+            <div className={styles.linha}></div>
+           </div>
+            <p>Projeto Donare quer ajudar,facilitar e dar visibilidade a sua ONG</p>
+           <button className={styles.btn}
+           >Cadastre-se</button>
+           </div>
+            </div>
+
+            {/* doador */}
+            <div className={styles.Card}>
+            <div className={styles.txt2}>
+           <div className={styles.title}>
+           <h3>ONG</h3>
+            <div className={styles.linha}></div>
+           </div>
+            <p>Projeto Donare quer ajudar,facilitar e dar visibilidade a sua ONG</p>
+            <button className={styles.btn}
+           >Cadastre-se</button>
+           </div>
+          
+            </div>
+
+            {/* voluntario */}
+
+            <div className={styles.Card}>
+            <div className={styles.txt2}>
+           <div className={styles.title}>
+           <h3>ONG</h3>
+            <div className={styles.linha}></div>
+           </div>
+            <p>Projeto Donare quer ajudar,facilitar e dar visibilidade a sua ONG</p>
+            <button className={styles.btn}
+           >Saiba mais</button>
+           </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
