@@ -1,0 +1,9 @@
+.page2{
+    height: 1060px;
+    background-color: #FFBB09;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-evenly;
+}

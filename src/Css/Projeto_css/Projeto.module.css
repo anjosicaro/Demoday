@@ -1,26 +1,59 @@
-.Projeto{
-    width: 100%;
-    height: 650px;
-    /* background-color: red; */
-    background-image: url(../../Images/BGProjeto.png);
-    background-repeat: no-repeat;
-    background-position-x: 100%;
-    background-position-y: 30px;
+/* PADRÕES de texto */
+.projetoPT1 {
+    width: 100vw;
+    height: 643px;
     display: flex;
-  
-    justify-content: space-between;
-    align-items: center;}
-
-.txt{
-    width: 40%;
-    height: 400px;
-    margin-left: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-.txt h1{
-    font-size: 40px;
+.tituloH1 {
+    font-size: 4.3em;
+    font-family: 'poppins';
+    font-weight: bold;
+}
+
+.textoTamanho1 {
+    font-size: 1.25em;
+    font-family: 'poppins';
+}
+
+.corRoxa {
+    color: #352E67;
+}
+
+.corVermelha {
+    color: #EB5E36;
+}
+
+/* LADO ESQUERDO PROJETO PARTE 1 */
+.headerInvisivel{
+    width:100vw;
+    height:6.8rem;
+}
+
+.projetoPT1Esquerda {
+    width: 50vw;
+    height: 100%;
+    align-items: left;
+    padding-left: 9.3rem;
+    padding-top: 10rem;
+}
+
+.projetoPT1Esquerda h1 {
+    width: 25.62vw;
+    text-align: center;
+    margin-bottom: 3.1rem;
+}
+
+.projetoPT1Esquerda p {
+    width: 500px;
+}
+
+/* LADO DIREITO PROJETO PARTE 1 */
+.projetoPT1Direito {
+    background-color: green;
+    background:url(../../Images/BGProjeto.png) no-repeat right;
+    background-size:100%;
+    width: 50vw;
+    height: 100%;
 }

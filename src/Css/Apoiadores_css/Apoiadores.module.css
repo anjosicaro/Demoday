@@ -1,19 +1,26 @@
+.headerInvisivel{
+    width: 100vw;
+    height: 6.75rem;
+}
+
 .ApoiadoresPt1 {
     /* background-color:red; */
-    width: 100%;
-    height:500px;
+    width: 100vw;
+    height:548px;
     background-image: url(../../Images/BGApoiadoresPt1.png);
-    background-size: 100%;
-    background-color: red;
+    background-size: 100vw;
+    /* background-color: red; */
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items:center;
     text-align: center;
-    padding-top: 150px;
+    /* padding-top: 150px; */
 }
 .txt{
-    width: 50%;
+    /* width: 50%; */
+    width: 42.5rem;
     /* background-color: red; */
-    font-size: 30px;
+    font-size: 3.1rem;
+    margin-top: 20rem;
 }

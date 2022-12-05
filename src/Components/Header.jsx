@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom'
 import styles from '../Css/Header.module.css'
 
-import Logo2 from '../Images/Logo2.png'
+// import Logo2 from '../Images/Logo2.png'
+import logoDonare from '../Images/logoDonare.png'
 function Header() {
     return (
         <header>
             <div className={styles.logo}>
                 {/* <Link to="/"><img src={logo} alt="Logo" /></Link> */}
-                <Link to="/"><img src={Logo2} alt="Logo" target={'_top'}/></Link>
+                <Link to="/"><img src={logoDonare} alt="Logo" target={'_top'} /></Link>
             </div>
             <nav className={styles.menu}>
                 <ul>

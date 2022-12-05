@@ -9,14 +9,26 @@ function Home() {
         <>
             <section className={styles.Home}>
                 <div className={styles.txt}>
-                    <h1>Você sabia que 58,7% do Brasil possui insegurança alimentar?</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur reprehenderit commodi .</p>
+                 <div className={styles.txt1}>
+                 <h3>+ DA METADE DO</h3>
+                   <div className={styles.brasil}>
+                    <h1>BRASIL</h1>
+                   </div>
+                   <h3>ESTÁ PASSANDO FOME</h3>
+                 </div>
+                 <div className={styles.txt2}>
+                    <h3>
+                    Veja como você <br /> pode mudar <br />
+<span> essa realidade</span> 
+                    </h3>
+
+                 </div>
                 </div>
             </section>
             
-            <HomePt2 />
-            <HomePt3 />
-            <HomePt4 />
+            {/* <HomePt2 /> */}
+            {/* <HomePt3 /> */}
+            {/* <HomePt4 /> */}
 
 
         </>
