@@ -4,20 +4,21 @@ function ProjetoPt2() {
         <section className={styles.projetoPT2}>
             <section className={styles.projetoPT2Esquerda}>
                 <div className={styles.blocoTexto}>
-                    <h1 className={styles.tituloh1}>O desperdicio, a fome e a pandemia</h1>
-                    <div className={styles.linha}></div>
-                    <p className={styles.textoTamanho1}>Os mercados e restaurantes são responsaveis por x quantidades de alimentos em boas condiçoes que são descartados, boa parte desses alimentos são jogados no lixo por x motivos. Nós buscamos diminuir a </p>
+                    <h1>O desperdicio e a <br></br> Fome</h1>
+                    <div class={styles.linha}></div>
+                    <p>Cerca de 27 milhões toneladas de comidas vão para o lixo todos os anos no Brasil. <br></br>7 milhões de pessoas estão em situação de vunerabilidade alimentar na grande metropoli de São Paulo.</p>
                 </div>
             </section>
+
             <section className={styles.projetoPT2Direito}>
                 <p className={styles.textoEsquerdo1}>
-                Evitar o desperdicio
+                    Evitar o desperdicio
                 </p>
                 <p className={styles.textoDireito2}>
-                Ajudar quem precisa no <br></br> momento que mais precisa
+                    Ajudar quem precisa no <br></br> momento que mais precisa
                 </p>
                 <p className={styles.textoEsquerdo2}>
-                Levar o alimemento até <br></br>quem precisa comer
+                    Levar o alimemento até <br></br>quem precisa comer
                 </p>
             </section>
         </section>

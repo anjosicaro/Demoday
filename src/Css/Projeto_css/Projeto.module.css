@@ -26,9 +26,9 @@
 }
 
 /* LADO ESQUERDO PROJETO PARTE 1 */
-.headerInvisivel{
-    width:100vw;
-    height:4rem;
+.headerInvisivel {
+    width: 100vw;
+    height: 4rem;
 }
 
 .projetoPT1Esquerda {
@@ -52,8 +52,8 @@
 /* LADO DIREITO PROJETO PARTE 1 */
 .projetoPT1Direito {
     background-color: green;
-    background:url(../../Images/BGProjeto.png) no-repeat right;
-    background-size:100%;
+    background: url(../../Images/BGProjeto.png) no-repeat right;
+    background-size: 100%;
     width: 50vw;
     height: 100%;
 }
