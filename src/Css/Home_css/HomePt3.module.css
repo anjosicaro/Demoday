@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FF9900;
+    /* background-color: #FF9900; */
 
 }
 .esquerda{
@@ -19,16 +19,17 @@
 }
 
 .CarrosselContainer{
-    /* background-color: #FF9900; */
+    background-color: #FF9900;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width:25%;
-    height: 320px;
+    width:30%;
+    height: 310px;
 }
 .CarrosselContainer img{
-    width: 380px;
+    width: 340px;
+    height:310px ;
 }
 .btn{
     width: 100px;
