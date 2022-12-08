@@ -1,54 +1,44 @@
-.ApoiadoresPt2{
-    /* background-color:#EBDFAB; */
-    width: 100%;
-    height:700px;
+/* GERAL */
+.ApoiadoresPT3{
+    width:100vw;
+    height:80.4vh;
+    /* background:blue; */
     display:flex;
     flex-direction:column;
-    /* margin: auto; */
+    align-items:center;
 }
 
-.ApoiadoresPt2 h1{
-    font-size:50px;
-    font-weight:bold;
+.ApoiadoresPT3 h1{
+    font-size:6.5vh;
+    font-weight: bold;
+    /* background:yellow; */
     text-align:center;
-    padding-top:80px;
+    width:auto;
+    margin-bottom:6.25vh;
+}
+/* QUADRO APOIADORES */
+.containerApoiadores{
+    /* background:green; */
+    /* height:63vh; */
+    width:86.56vw;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.containerMercados{
-    /* background-color:blue; */
-    margin: auto;
-    width: 55%;
-    height: 500px;;
-    display: flex;
-    flex-direction:column;
-  justify-content: center;
-  align-items: center;
+.containerApoiadores div{
+    /* background:red; */
+    width:22.81vw;
+    height:32.68vh;
+    border-radius:20px;
+    margin-top: 14.9vh;
+    margin-bottom: 9.2vh;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.Mercados{
-width: 100%;
-height: 200px;
-display: flex;
-justify-content: space-evenly;
-  align-items: center;
-/* background-color: red; */
+.containerApoiadores div img{
+    height:32.68vh;
+    width:19.5vw;
+    margin-left: 1.6vw;
 }
-
-
-.divVermelha{
-    width: 20%;
-    height: 130px;
-    background-color:#EB5E36;
-    border:2px solid #EB5E36;
-    border-radius: 5px;
-    box-shadow:0px 0px 5px black;
-}
-
-.divAmarela{
-    width: 20%;
-    height: 130px;
-    background-color:#FF9900;
-    border:2px solid #FF9900;
-    border-radius: 5px;
-    box-shadow:0px 0px 5px black;
-} 

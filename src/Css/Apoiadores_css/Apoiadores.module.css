@@ -1,4 +1,4 @@
-.headerInvisivel{
+.headerInvisivel {
     width: 100vw;
     height: 4rem;
 }
@@ -6,18 +6,19 @@
 .ApoiadoresPt1 {
     /* background-color:red; */
     width: 100vw;
-    height:548px;
+    height: 548px;
     background-image: url(../../Images/BGApoiadoresPt1.png);
     background-size: 100vw;
     /* background-color: red; */
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     text-align: center;
     /* padding-top: 150px; */
 }
-.txt{
+
+.txt {
     /* width: 50%; */
     width: 42.5rem;
     /* background-color: red; */
