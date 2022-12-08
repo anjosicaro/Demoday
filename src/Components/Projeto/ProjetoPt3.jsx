@@ -9,72 +9,72 @@ import casimiro from "../../Images/casimiro.png";
 function ProjetoPt3() {
   return (
     <section className={styles.ProjetoPt3}>
-     <div className={styles.container}>
-     <div className={styles.txt}>
-        <h1>
+      <div className={styles.container}>
+        <div className={styles.txt}>
+          <h1>
             Quem somos
-        </h1>
-        <p>
-        Somos um grupo de jovens do Instituto PROA, durante a realização do nosso trabalho de conclusão de curso decidimos que nosso projeto seria voltado para a fome, atualmente a fome de São Paulo que vem atingendo 6,8 milhões de pessoas e nossa plataforma encontrou uma solução para esse problema.
-        </p>
-      </div>
-      <div className={styles.img}>
-        <div className={styles.aluno}>
-          <img src={icaro} alt="" />
-          <h2>
-          Ícaro <br />
-          Anjos
-        </h2>
+          </h1>
+          <p>
+            Somos um grupo de jovens do Instituto PROA, durante a realização do nosso trabalho de conclusão de curso decidimos que nosso projeto seria voltado para a fome, atualmente a fome de São Paulo que vem atingendo 6,8 milhões de pessoas e nossa plataforma encontrou uma solução para esse problema.
+          </p>
         </div>
-        
-        
-        <div className={styles.aluno}>
-          <img src={matheus} alt="" />
-          <h2>
-         Matheus <br />
-          Barros
-        </h2>
-        </div>{" "}
-        <div className={styles.aluno}>
-          <img src={vitor} alt="" />
-          <h2>
-          Vitor <br />
-          Silva
-        </h2>
-        </div>{" "}
-        <div className={styles.aluno}>
-          <img src={pedro} alt="" />
-          <h2>
-         Pedro  <br />
-         Lazaro
-        </h2>
+        <div className={styles.img}>
+          <div className={styles.aluno}>
+            <img src={icaro} alt="" />
+            <h2>
+              Ícaro <br />
+              Anjos
+            </h2>
+          </div>
+
+
+          <div className={styles.aluno}>
+            <img src={matheus} alt="" />
+            <h2>
+              Matheus <br />
+              Barros
+            </h2>
+          </div>{" "}
+          <div className={styles.aluno}>
+            <img src={vitor} alt="" />
+            <h2>
+              Vitor <br />
+              Silva
+            </h2>
+          </div>{" "}
+          <div className={styles.aluno}>
+            <img src={pedro} alt="" />
+            <h2>
+              Pedro  <br />
+              Lazaro
+            </h2>
+          </div>
         </div>
-      </div>
-      <div className={styles.img}>
-        <div className={styles.aluno}>
-          <img src={lucas} alt="" />
-          <h2>
-          Lucas <br />
-          Damasceno
-        </h2>
-        </div>
-        <div className={styles.aluno}>
+        <div className={styles.img}>
+          <div className={styles.aluno}>
+            <img src={lucas} alt="" />
+            <h2>
+              Lucas <br />
+              Damasceno
+            </h2>
+          </div>
+          <div className={styles.aluno}>
             <img src={giulia} alt="" />
             <h2>
-         Giulia <br />
-          Santos
-        </h2>
+              Giulia <br />
+              Santos
+            </h2>
+          </div>
+          <div className={styles.aluno}>
+            <img src={casimiro} alt="" />
+            <h2>
+              Casimiro <br />
+              Tompson
+            </h2>
+          </div>
         </div>
-        <div className={styles.aluno}>
-          <img src={casimiro} alt="" />
-          <h2>
-        Casimiro <br />
-          Tompson
-        </h2>
-        </div>
-      </div>
 
-     </div>
+      </div>
     </section>
   );
 }
