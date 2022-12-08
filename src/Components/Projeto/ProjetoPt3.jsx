@@ -69,7 +69,7 @@ function ProjetoPt3() {
             <img src={casimiro} alt="" />
             <h2>
               Casimiro <br />
-              Tompson
+              Thompson
             </h2>
           </div>
         </div>

@@ -14,7 +14,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    /* background:red; */
+    justify-content:center;
 }
 
 .blocoTexto {
@@ -59,6 +59,7 @@
     grid-template-columns: auto auto;
     grid-template-rows: 34.37vh 27.86vh auto;
     grid-gap: 0px;
+    /* padding-right:10vw; */
 }
 
 .TextoEsquerdo1 {
@@ -67,8 +68,9 @@
     width: auto;
     height: 2.8vh;
     /* padding-top:17.18vh; */
-    margin-right: 0.7vw;
+    /* margin-right: 0.7vw; */
     margin-top:18vh;
+    padding-right:0.7vw ;
     text-align: right;
 }
 
@@ -87,7 +89,8 @@
     height: 27.86vh;
     background: url(../../Images/HomemDoando.png) no-repeat;
     background-size: 100% 100%;
-    margin: 0vh 1.25vw 0vh 2.10vw;
+    /* margin: 0vh 1.25vw 0vh 2.10vw; */
+    padding: 0vh 1.25vw 0vh 2.10vw;
     /* margin-bottom:11.58vh; */
 }
 
@@ -102,16 +105,21 @@
 .TextoEsquerdo3 {
     /* background: yellow; */
     font-size: 2.6vh;
-    width: auto;
+    width: 18vw;
     height: 2.8vh;
-    text-align:right;
+    text-align:center;
     margin-top:11.58vh;
+    width:auto;
+    height:auto;
 }
 
 .background3 {
     /* background: blue; */
-    width:28.04vw;
+    width:26.95vw;
     height:25.49vh;
+    /* width:auto; */
+    /* height:auto; */
     background:url(../../Images/criançaComendo.png) no-repeat;
     background-size:100% 100%;
+    padding-right:4.3vw;
 }
