@@ -1,7 +1,7 @@
 /*---------------------COISAS GERAIS/ PADRÕES---------------------*/
 .projetoPT2 {
     /* background:red; */
-    height: 95vh;
+    height: 95.31vh;
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -14,7 +14,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
 }
 
 .blocoTexto {
@@ -69,8 +69,8 @@
     height: 2.8vh;
     /* padding-top:17.18vh; */
     /* margin-right: 0.7vw; */
-    margin-top:18vh;
-    padding-right:0.7vw ;
+    margin-top: 18vh;
+    padding-right: 0.7vw;
     text-align: right;
 }
 
@@ -99,7 +99,7 @@
     font-size: 2.6vh;
     width: auto;
     height: 2.8vh;
-    margin-top:14.97vh;
+    margin-top: 14.97vh;
 }
 
 .TextoEsquerdo3 {
@@ -107,19 +107,19 @@
     font-size: 2.6vh;
     width: 18vw;
     height: 2.8vh;
-    text-align:center;
-    margin-top:11.58vh;
-    width:auto;
-    height:auto;
+    text-align: center;
+    margin-top: 11.58vh;
+    width: auto;
+    height: auto;
 }
 
 .background3 {
     /* background: blue; */
-    width:26.95vw;
-    height:25.49vh;
+    width: 26.95vw;
+    height: 25.49vh;
     /* width:auto; */
     /* height:auto; */
-    background:url(../../Images/criançaComendo.png) no-repeat;
-    background-size:100% 100%;
-    padding-right:4.3vw;
+    background: url(../../Images/criançaComendo.png) no-repeat;
+    background-size: 100% 100%;
+    padding-right: 4.3vw;
 }
