@@ -24,9 +24,12 @@
     background-color: #FD4A0A;
     text-decoration: none;
     color: white;
-    width: 60px;
+    width: 15vw;
+    /* height:9.6vh; */
+    font-size:2.6vh;
+    text-align:center;
+
     font-weight: bold;
-    padding: 15px 50px 15px 50px;
     border-radius: 5px;
     margin-left: 600px;
 }
