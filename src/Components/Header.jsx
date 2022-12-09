@@ -15,7 +15,7 @@ function Header() {
                 <ul>
                     <li><Link to="/Projeto" target={'_top'}>Projeto</Link></li>
                     <li><Link to="/Instituicoes" target={'_top'}>Instituições</Link></li>
-                    <li><Link to="/Voluntario" target={'_top'}>Voluntario</Link></li>
+                    <li><Link to="/Voluntario" target={'_top'}>Voluntário</Link></li>
                     <li><Link to="/Apoiadores" target={'_top'}>Apoiadores</Link></li>
                     <div className={styles.menuDropdowns}>
                         <ul>
