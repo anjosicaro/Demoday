@@ -8,7 +8,7 @@ function Voluntario() {
             <div className={styles.headerInvisivel}></div>
             <section className={styles.VoluntarioPT1}>
                 <p>
-                    Existem muitas formas <br></br> de ajudar o proximo
+                    Existem muitas formas <br></br> de ajudar o próximo
                 </p>
                 <div className={styles.containerFotografias}>
                     <img src={fotografias} alt="" />

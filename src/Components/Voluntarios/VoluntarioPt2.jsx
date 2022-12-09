@@ -10,7 +10,7 @@ function VoluntarioPt2() {
                     <h3 className={styles.tituloh3}>Ajudar alguém que precisa <span className={styles.linha}>..........................</span></h3>
                     <p className={styles.tituloTamanho1}>Você pode ajudar pessoas doando <br></br> alimentos e roupas em bom estado
                     </p >
-                    <h3 className={styles.tituloh3}>Voluntario <span className={styles.linha}>.........................................................</span></h3>
+                    <h3 className={styles.tituloh3}>Voluntário <span className={styles.linha}>.........................................................</span></h3>
                     <p className={styles.tituloTamanho1}>Você pode ajudar pessoas doando <br></br>alimentos e roupas em bom estado
                     </p>
                     <h3 className={styles.tituloh3}>Doador <span className={styles.linha}>................................................................</span></h3>

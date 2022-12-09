@@ -35,6 +35,12 @@
     width: 90%;
 }
 
+.comentario:hover{
+    transition: all 300ms;
+    transform: scale(1.10);
+}
+
+
 .imgTxt {
     width: 100%;
     height: 120px;
