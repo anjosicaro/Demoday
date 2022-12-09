@@ -81,7 +81,9 @@ align-items: center;
     align-items: center;
     text-align: center;
 }
-
+.txt2 p{
+    width: 90%;
+}
 
 .linha{
     width: 100%;
