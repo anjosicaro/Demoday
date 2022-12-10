@@ -89,7 +89,8 @@ img {
 
 .container_sejaDoador a:hover,
 .container_sejaVoluntario a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #EB5E36;
 }
 
 .Home4Pt2 {

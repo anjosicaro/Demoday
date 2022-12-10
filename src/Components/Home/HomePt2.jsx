@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "../../Css/Home_css/HomePt2.module.css";
 import grafico from "../../Images/grafico.png";
 function HomePt2() {
@@ -25,8 +26,10 @@ function HomePt2() {
             <div className={styles.linha}></div>
            </div>
             <p>Projeto Donare quer ajudar,facilitar e dar visibilidade a sua ONG</p>
-           <button className={styles.btn}
+          <Link to='/Cadastro'>
+          <button className={styles.btn}
            >Cadastre-se</button>
+          </Link>
            </div>
             </div>
 
@@ -34,12 +37,14 @@ function HomePt2() {
             <div className={styles.Card}>
             <div className={styles.txt2}>
            <div className={styles.title}>
-           <h3>ONG</h3>
+           <h3>DOADOR</h3>
             <div className={styles.linha}></div>
            </div>
-            <p>Projeto Donare quer ajudar,facilitar e dar visibilidade a sua ONG</p>
-            <button className={styles.btn}
+            <p> Você pode ajudar a por comida no prato de quem precisa</p>
+           <Link to='/Cadastro'>
+           <button className={styles.btn}
            >Cadastre-se</button>
+           </Link>
            </div>
           
             </div>
@@ -49,12 +54,14 @@ function HomePt2() {
             <div className={styles.Card}>
             <div className={styles.txt2}>
            <div className={styles.title}>
-           <h3>ONG</h3>
+           <h3>VOLUNTÁRIO</h3>
             <div className={styles.linha}></div>
            </div>
-            <p>Projeto Donare quer ajudar,facilitar e dar visibilidade a sua ONG</p>
-            <button className={styles.btn}
+            <p>Você pode ajudar doando seu  tempo sendo voluntário </p>
+           <Link to='/Voluntario'>
+           <button className={styles.btn}
            >Saiba mais</button>
+           </Link>
            </div>
             </div>
           </div>

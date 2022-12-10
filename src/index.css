@@ -16,7 +16,7 @@ ul, li a{
 body{
     /* background-color:blue; */
     font-family: 'Poppins';
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     
 }
 
@@ -31,3 +31,4 @@ p{
     font-family: 'Poppins';
     font-weight: 400px;
 }
+

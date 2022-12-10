@@ -1,4 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
+import { Link } from "react-router-dom";
 import styles from '../../Css/Home_css/HomePt3.module.css'
 import prato from   '../../Images/pratoCheio.png'
 import pratoVazio from '../../Images/pratoVazio.png'
@@ -11,9 +12,11 @@ function HomePt3() {
     <div className={styles.txt}>
 <h1>Você pode</h1>
 <h2>ENCHER ESSE PRATO</h2>
+<Link to='/Cadastro'>
 <button className={styles.btn}>
   DOE
 </button>
+</Link>
     </div>
    </div>
    <div className={styles.CarrosselContainer}>

@@ -63,7 +63,9 @@ a:visited {
     border: 2px solid #352E67;
     border-radius: 0.6rem;
     width: 21vw;
-    height: auto;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
     padding-top: 1.25rem;
     top: 3rem;
     right: 3rem;

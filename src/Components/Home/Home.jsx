@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "../../Css/Home_css/Home.module.css";
 import HomePt2 from "./HomePt2";
 import HomePt3 from "./HomePt3";
@@ -16,7 +17,10 @@ function Home() {
                 <h1>BRASIL</h1>
               </div>
               <h3>ESTÁ PASSANDO FOME</h3>
-              <button className={styles.btn}>Voluntário</button>
+<Link to='/Apoiadores'>
+<button className={styles.btn}>Doador</button>
+
+</Link>
             </div>
           </div>
         </div>
@@ -28,7 +32,10 @@ function Home() {
                 Veja como você <br /> pode mudar <br />
                 <span> essa realidade</span>
               </h3>
-              <button className={styles.btn}>doador</button>
+<Link to='/Voluntario'>
+<button className={styles.btn}>Voluntário</button>
+
+</Link>
             </div>
           </div>
         </div>
