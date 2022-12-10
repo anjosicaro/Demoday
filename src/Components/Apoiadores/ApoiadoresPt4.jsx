@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function ApoiadoresPt4() {
     return (
         <>
-            <section className={styles.ApoiadoresPt3}>
+            <section className={styles.ApoiadoresPT4}>
                 <p>
                     Seja também um apoiador dessa causa
                 </p>
