@@ -1,5 +1,94 @@
-footer{
+footer {
+    background: #352E67;
+    width: 100vw;
+    height: 60.80vh;
+    display: grid;
+    grid-template-columns: 33vw 20vw 20vw auto;
+    grid-template-rows: auto 2px auto;
+    grid-gap: 0px;
+    padding-top: 9.2vh;
+}
+
+footer h2 {
+    color: #fff;
+    font-size: 3.2vh;
+}
+
+footer li {
+    color: #fff;
+    font-size: 2.6vh;
+}
+
+.footerPT1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footerPT1 h1 {
+    width: auto;
+    color: #fff;
+    font-size: 3.9vh;
+}
+
+.footerPT1 div {
+    width: auto;
+    height: 70px;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footerPT2 {
+    padding-left: 3vw;
+}
+
+.footerPT2 ul {
+    padding: 0;
+}
+
+.footerPT3 {
+    padding-left: 3vw;
+}
+
+.footerPT3 ul {
+    padding: 0;
+}
+
+.footerPT4 {
+    padding-left: 4.14vw;
+}
+
+.footerPT4 ul {
+    padding: 0;
+}
+
+.linha {
+    width: 100vw;
+    height: 2px;
+    background: #fff;
+}
+
+.footerPT5 {
+    grid-column: 1/ span 4;
+    display:flex;
+    flex-direction:row;
+    padding-top:2vh;
+}
+
+.footerPT5 div {
+    width: 16.64vw;
+    height: 11.71vh;
+    padding-left:5vw;
+    margin-right:43vw;
+}
+
+.footer div img {
     width: 100%;
-    height: 300px;
-    background-color: thistle;
+    height: 100%;
+}
+
+.footerPT5 p{
+    color:#fff;
 }

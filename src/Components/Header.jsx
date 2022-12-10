@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import styles from '../Css/Header.module.css'
-import setaPraBaixo from '../Images/setaPraBaixo.png'
 
 // import Logo2 from '../Images/Logo2.png'
 import logoDonare from '../Images/logoDonare.png'

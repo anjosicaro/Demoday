@@ -43,8 +43,7 @@ a:visited {
     color: #352E67;
 }
 
-.menu a:hover,
-li:hover {
+.menu a:hover, .menu li:hover {
     color: #FD4A0A;
     transition: 0.1s;
     border-bottom: 3px solid #FD4A0A;
