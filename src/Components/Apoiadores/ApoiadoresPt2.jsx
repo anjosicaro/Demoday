@@ -15,9 +15,9 @@ function ApoiadoresPt2() {
               </div>
               <h4>Dimunir o desperdicio </h4>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Corrupti veritatis quod dolore asperiores impedit accusamus
-                deserunt.
+                alimentos em bom estado
+                são disperdicados diariamente,
+                os quais poderiam ir para o prato de alguém
               </p>
             </div>
             <div className={styles.card}>
@@ -26,9 +26,7 @@ function ApoiadoresPt2() {
               </div>
               <h4>Ajudar uma pessoa</h4>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Corrupti veritatis quod dolore asperiores impedit accusamus
-                deserunt.
+                Solidariedae é um ato de bondade e compreensão com o próximo
               </p>
             </div>
             <div className={styles.card}>
@@ -37,9 +35,7 @@ function ApoiadoresPt2() {
               </div>
               <h4>Ser reconhecido </h4>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Corrupti veritatis quod dolore asperiores impedit accusamus
-                deserunt.
+                Todos aqueles que se dispoem a ajudar de alguma forma recebem o selo de aprovação donare
               </p>
             </div>
           </div>

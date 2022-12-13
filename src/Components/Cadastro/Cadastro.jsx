@@ -26,8 +26,8 @@ function Cadastro() {
           <input type="date" id="Nascimento" name="nascimento" placeholder="Data de Nascimento" /> <br />
 
           <div className={styles.textoEBotao}>
-            <p>ja possui uma conta? <Link to="/login">entre aqui</Link></p>
-            <input type="image" src={Imagem_Botao} alt="" width="70px" height="66px" />
+            <p>ja possui uma conta? <Link to="/Login">entre aqui</Link></p>
+            <Link to='/PerfilOng'><input type="image" src={Imagem_Botao} alt="" width="70px" height="66px" /></Link>
           </div>
         </form>
       </div>

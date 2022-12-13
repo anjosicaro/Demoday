@@ -8,23 +8,23 @@ function InstituicoesPt3() {
                 <div className={styles.comentario}>
                     <div className={styles.imgTxt}>
                         <div className={styles.img}></div>
-                        <h4>Nome da pessoa</h4>
+                        <h4>João Vinicius</h4>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit natus velit placeat et? Assumenda, inventore. Numquam minus nemo voluptatum</p>
+                    <p>Consegui achar vários lugares que precisavam de doações rápido e fácil, adorei!</p>
                 </div>
                 <div className={styles.comentario}>
                     <div className={styles.imgTxt}>
                         <div className={styles.img}></div>
-                        <h4>Nome da pessoa</h4>
+                        <h4>Rosiane da Silva</h4>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit natus velit placeat et? Assumenda, inventore. Numquam minus nemo voluptatum</p>
+                    <p>Gostei muito da plataforma, super indicaria serviço dez</p>
                 </div>
                 <div className={styles.comentario}>
                     <div className={styles.imgTxt}>
                         <div className={styles.img}></div>
-                        <h4>Nome da pessoa</h4>
+                        <h4>Vinicius Soares da Silva</h4>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit natus velit placeat et? Assumenda, inventore. Numquam minus nemo voluptatum</p>
+                    <p>Sempre amei fazer trabalho voluntario agora consigo achar com facilidade, amei!</p>
                 </div>
 
 
