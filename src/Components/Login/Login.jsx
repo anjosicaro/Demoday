@@ -1,4 +1,4 @@
-import styles from '../../Css/Login/Login.module.css'
+import styles from './../../Css/Login_css/Login.module.css'
 
 function Login() {
     return (
@@ -8,3 +8,5 @@ function Login() {
         </section>
     )
 }
+
+export default Login;

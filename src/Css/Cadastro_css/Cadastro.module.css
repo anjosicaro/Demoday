@@ -8,9 +8,6 @@
     background-size: 100%;
     background-position-y: 100%;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-
 }
 
 .txt {
@@ -20,8 +17,6 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: center; */
     color: white;
     border-radius: 10px 0px 0px 10px;
     margin-left:200px;
@@ -32,6 +27,7 @@
 }
 
 .txt p {
+    width:auto;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 36px;
@@ -49,14 +45,10 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     border-radius: 0px 10px 10px 0px;
-    /* justify-content:center; */
-    /* padding-top: 30px; */
 }
 
 .cadastro h1 {
-    /* text-align: center; */
     font-size: 35px;
     margin-left: 289px;
 }
@@ -78,7 +70,6 @@
 }
 
 .cadastro input {
-    /* background-color: #E5E5E5; */
     padding: 16px 0px 13px 4px;
     margin-bottom: 10px;
     border-bottom: 2px solid #FFBB09;

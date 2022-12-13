@@ -58,13 +58,13 @@ function ProjetoPt3() {
               Damasceno
             </h2>
           </div>
-          {/* <div className={styles.aluno}>
+          <div className={styles.aluno}>
             <img src={giulia} alt="" />
             <h2>
               Giulia <br />
               Santos
             </h2>
-          </div> */}
+          </div>
           <div className={styles.aluno}>
             <img src={casimiro} alt="" />
             <h2>

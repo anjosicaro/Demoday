@@ -9,6 +9,7 @@ import Apoiadores from './Components/Apoiadores/Apoiadores';
 import Projeto from   './Components/Projeto/Projeto';
 import Cadastro from './Components/Cadastro/Cadastro';
 import PerfilOng from './Components/PerfilOng/PerfilOng';
+import Login from './Components/Login/Login';
 import  'bootstrap/dist/css/bootstrap.min.css' ;
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
                         <Route path='/Apoiadores' element={<Apoiadores />} />
                         <Route path='/Cadastro' element={<Cadastro />} />
                         <Route path='/PerfilOng' element={<PerfilOng />} />
+                        <Route path='/Login' element={<Login />} />
                   </Routes>
 
             
