@@ -7,7 +7,7 @@ function Cadastro() {
   return (
     <section className={styles.page}>
       <div className={styles.txt}>
-        <h1>DONARE</h1>
+        <h1>Donare</h1>
 
         <p>Comida boa no prato de quem precisa</p>
 

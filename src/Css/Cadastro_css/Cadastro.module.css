@@ -24,6 +24,7 @@
 
 .txt h1 {
     font-size: 40px;
+    color:white;
 }
 
 .txt p {
@@ -31,6 +32,7 @@
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 36px;
+    color:white;
 }
 
 .img {
