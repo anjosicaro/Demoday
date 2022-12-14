@@ -8,7 +8,7 @@ function ApoiadoresPt4() {
                 <p>
                     Seja também um apoiador dessa causa
                 </p>
-                <Link>APOIAR</Link>
+                <Link to="/Cadastro" target={'_top'}>APOIAR</Link>
             </section>
         </>
     );

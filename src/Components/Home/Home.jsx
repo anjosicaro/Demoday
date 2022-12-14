@@ -17,7 +17,7 @@ function Home() {
                 <h1>BRASIL</h1>
               </div>
               <h3>ESTÁ PASSANDO FOME</h3>
-<Link to='/Apoiadores'>
+<Link to='/Apoiadores' target={'_top'}>
 <button className={styles.btn}>Doador</button>
 
 </Link>
@@ -32,7 +32,7 @@ function Home() {
                 Veja como você <br /> pode mudar <br />
                 <span> essa realidade</span>
               </h3>
-<Link to='/Voluntario'>
+<Link to='/Voluntario' target={'_top'}>
 <button className={styles.btn}>Voluntário</button>
 
 </Link>

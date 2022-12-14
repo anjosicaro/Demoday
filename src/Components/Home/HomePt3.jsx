@@ -12,7 +12,7 @@ function HomePt3() {
     <div className={styles.txt}>
 <h1>Você pode</h1>
 <h2>ENCHER ESSE PRATO</h2>
-<Link to='/Cadastro'>
+<Link to='/Cadastro' target={'_top'}>
 <button className={styles.btn}>
   DOE
 </button>
@@ -22,7 +22,7 @@ function HomePt3() {
    <div className={styles.CarrosselContainer}>
             <Carousel>
               <Carousel.Item interval={1000}>
-                <img src={pratoVazio}
+                <img src={pratoVazio} alt=""
                 
                 //   className="d-block w-100"
                 //   src="holder.js/800x400?text=First slide&bg=373940"
@@ -33,7 +33,7 @@ function HomePt3() {
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item interval={500}>
-                <img src={prato}
+                <img src={prato} alt=""
                 //   className="d-block w-100"
                 //   src="holder.js/800x400?text=Second slide&bg=282c34"
                 //   alt="Second slide"

@@ -1,5 +1,128 @@
+.headerFalça{
+    background:red;
+    width:100vw;
+    height:4rem;
+}
+
 .Login{
 width:100vw;
 height:93.88vh;
 background-color:#F8B200;
+/* background:url(../../Images/cadastro.png) top 0px right 0 no-repeat; */
+background-image:url(../../Images/cadastro.png);
+background-repeat:no-repeat;
+background-size:100% 100%;
+display:flex;
+flex-direction:row;
+align-items:center;
+justify-content:center;
+}
+
+.containerLogin{
+  width:58.51vw;
+  height:51.69vh;
+  background:blue;
+  border-radius:10px;
+  display:flex;
+}
+
+.parteEsquerda{
+    width:18vw;
+    height:100%;
+    background:#EB5E36;
+    border-radius:10px 0px 0px 10px;
+    background-image:url(../../Images/garota.png);
+    background-repeat:no-repeat;
+    background-position:bottom;
+    padding-top:2.7vh;
+}
+
+.parteEsquerda h1{
+    text-align:center;
+    font-size:4.3vh;
+    font-weight:bold;
+    color:white;
+}
+
+.parteEsquerda p{
+    text-align:center;
+    font-size:3.2vh;
+    color:white;
+    width:auto;
+    font-weight:normal;
+}
+
+.parteDireita{
+    width:40.51vw;
+    height:auto;
+    background:#FBFBFB;
+    border-radius:0px 10px 10px 0px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+
+.parteDireita h1{
+    text-decoration:2px underline #F8B200;
+}
+
+.tiposDePerfis{
+    width:24.7vw;
+    height: 100px;
+    /* background: red; */
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.tiposDePerfis div{
+    width:90px;
+    height: 90px;
+    background:#D9D9D9;
+    border-radius:10px;
+}
+
+.tiposDePerfis div:hover{
+    border: 4px solid orange;
+    transition:0.2s;
+}
+
+/* ======================================FORMULARIO */
+
+.parteDireita form{
+    /* background:red; */
+    width:28.67vw;
+
+}
+
+.parteDireita input {
+    padding: 16px 0px 13px 4px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #FFBB09;
+    color: #352E67;
+    /* font-size: 20px; */
+    font-weight: bold;
+    font-family: 'poppins';
+    width: 363px;
+}
+
+.parteDireita input::placeholder {
+    color: #352E67;
+    font-weight: bold;
+    font-family: 'poppins';
+}
+
+.parteDireita input[type=button]{
+    border-radius:5px;
+    background:#EB5E36;
+    height:39px;
+    padding:0px;
+    color:white;
+}
+
+.parteDireita input[type=button]:hover{
+    background:orange;
+    transition:0.3s;
 }

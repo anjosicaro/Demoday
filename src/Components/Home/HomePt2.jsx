@@ -26,7 +26,7 @@ function HomePt2() {
             <div className={styles.linha}></div>
            </div>
             <p>Projeto Donare quer ajudar,facilitar e dar visibilidade a sua ONG</p>
-          <Link to='/Cadastro'>
+          <Link to='/Cadastro' target={'_top'}>
           <button className={styles.btn}
            >Cadastre-se</button>
           </Link>
@@ -41,7 +41,7 @@ function HomePt2() {
             <div className={styles.linha}></div>
            </div>
             <p> Você pode ajudar a por comida no prato de quem precisa</p>
-           <Link to='/Cadastro'>
+           <Link to='/Cadastro' target={'_top'}>
            <button className={styles.btn}
            >Cadastre-se</button>
            </Link>
@@ -58,7 +58,7 @@ function HomePt2() {
             <div className={styles.linha}></div>
            </div>
             <p>Você pode ajudar doando seu  tempo sendo voluntário </p>
-           <Link to='/Voluntario'>
+           <Link to='/Voluntario' target={'_top'}>
            <button className={styles.btn}
            >Saiba mais</button>
            </Link>

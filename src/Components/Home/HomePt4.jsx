@@ -12,7 +12,7 @@ function HomePt4() {
                     <div className={styles.container_sejaVoluntario}>
                         <div className={styles.IMG_sejaVoluntario}>
                             <img src={SejaVoluntario} alt="" />
-                            <Link to="/Voluntario">Saiba Mais</Link>
+                            <Link to="/Voluntario"target={'_top'}>Saiba Mais</Link>
                            
                         </div>
                    
@@ -23,7 +23,7 @@ function HomePt4() {
                         <div classNmae={styles.IMG_sejaDoador}>
                             <img src={SejaDoador} alt="" />
                         </div>
-                       <Link to="/Apoiadores">Saiba mais</Link>
+                       <Link to="/Apoiadores" target={'_top'}>Saiba mais</Link>
 
                     </div>
                 </div>
